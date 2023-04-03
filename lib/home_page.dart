@@ -2,9 +2,6 @@ import 'package:allen/feature_box.dart';
 import 'package:allen/openai_service.dart';
 import 'package:allen/pallete.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:speech_to_text/speech_recognition_result.dart';
 import 'package:speech_to_text/speech_to_text.dart';
 
