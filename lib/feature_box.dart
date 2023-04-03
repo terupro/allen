@@ -26,7 +26,9 @@ class FeatureBox extends StatelessWidget {
         ),
       ),
       child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 20).copyWith(left: 15),
+        padding: const EdgeInsets.symmetric(vertical: 20.0).copyWith(
+          left: 15,
+        ),
         child: Column(
           children: [
             Align(

@@ -1,9 +1,11 @@
 import 'dart:convert';
-import 'package:http/http.dart' as http;
+
 import 'package:allen/secrets.dart';
+import 'package:http/http.dart' as http;
 
 class OpenAIService {
   final List<Map<String, String>> messages = [];
+
   Future<String> isArtPromptAPI(String prompt) async {
     try {
       final res = await http.post(

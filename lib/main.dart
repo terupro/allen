@@ -1,6 +1,6 @@
 import 'package:allen/home_page.dart';
-import 'package:flutter/material.dart';
 import 'package:allen/pallete.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
